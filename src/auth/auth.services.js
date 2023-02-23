@@ -22,7 +22,7 @@ const postLogin = (req, res) => {
         response.success({
           res,
           status: 200,
-          message: "Correct Credentials!",
+          message: "Correct Credential!",
           data: token,
         });
       } else {
