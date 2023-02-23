@@ -1,6 +1,5 @@
 //? Dependencies
 const express = require("express");
-const passportJwt = require("./middlewares/auth.middleware");
 
 //? File imports
 const config = require("../config");
